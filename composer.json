@@ -1,0 +1,13 @@
+{
+    "require": {
+        "pmvc/pmvc": ">=0.1.7",
+        "pmvc-plugin/dispatcher": "*",
+        "pmvc-plugin/routing": "*",
+        "pmvc-plugin/dotenv": "*",
+        "pmvc-plugin/error": "*",
+        "pmvc-plugin/debug": "*",
+        "pmvc-app/hello_app": "*",
+        "pmvc-theme/hello_react": "*"
+    }
+
+}

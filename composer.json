@@ -7,7 +7,8 @@
         "pmvc-plugin/error": "*",
         "pmvc-plugin/debug": "*",
         "pmvc-app/hello_app": "*",
-        "pmvc-theme/hello_react": "*"
+        "pmvc-theme/hello_react": "*",
+        "mouf/nodejs-installer": "~1.0"
     }
 
 }

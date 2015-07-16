@@ -19,6 +19,7 @@ class ReactAppTest extends PHPUnit_Framework_TestCase
         $controller->store(array(
             _RUN_PARENT=>'vendor/pmvc-app'
             ,_TEMPLATE_DIR=>'vendor/pmvc-theme/hello_react'
+            ,'NODE'=>'vendor/bin/node'
         ));
         if($controller->plugApp()){
             ob_start();
@@ -26,6 +27,6 @@ class ReactAppTest extends PHPUnit_Framework_TestCase
             $output = ob_get_contents();
             ob_end_clean();
         }
-        $this->assertTrue(!empty($output));
+        $this->assertContains('data-reactid',$output);
     }
 }

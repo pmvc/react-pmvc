@@ -9,3 +9,6 @@ PMVC integrate with react.js demo code
    * composer install
 
 ## 3. link web server to htdocs/index.php
+
+## 4. React theme sample
+   * https://github.com/pmvc-theme/hello_react

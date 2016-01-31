@@ -4,24 +4,30 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "9bcbe33d07041ebe2807931bb6809df2",
+    "hash": "0962d7b625cd782736446e8565f70e78",
+    "content-hash": "872c64a9754ebf62b7ffdcaa18755ff6",
     "packages": [
         {
             "name": "josegonzalez/dotenv",
-            "version": "1.0.1",
+            "version": "2.0.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/josegonzalez/php-dotenv.git",
-                "reference": "e25e54a87180a46c473fd5a1bb5d8c2fa2699a19"
+                "reference": "eb9eb3beea37411d2f7b4960eed94fc72a592488"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/josegonzalez/php-dotenv/zipball/e25e54a87180a46c473fd5a1bb5d8c2fa2699a19",
-                "reference": "e25e54a87180a46c473fd5a1bb5d8c2fa2699a19",
+                "url": "https://api.github.com/repos/josegonzalez/php-dotenv/zipball/eb9eb3beea37411d2f7b4960eed94fc72a592488",
+                "reference": "eb9eb3beea37411d2f7b4960eed94fc72a592488",
                 "shasum": ""
             },
             "require": {
+                "m1/env": "2.*",
                 "php": ">=5.3.0"
+            },
+            "require-dev": {
+                "satooshi/php-coveralls": "1.*",
+                "squizlabs/php_codesniffer": "2.*"
             },
             "type": "library",
             "autoload": {
@@ -51,20 +57,78 @@
                 "dotenv",
                 "php"
             ],
-            "time": "2015-06-05 06:04:53"
+            "time": "2016-01-07 16:07:20"
         },
         {
-            "name": "mouf/nodejs-installer",
-            "version": "v1.0.6",
+            "name": "m1/env",
+            "version": "2.0.0",
             "source": {
                 "type": "git",
-                "url": "https://github.com/thecodingmachine/nodejs-installer.git",
-                "reference": "473ddea36b9e5428e776cd9b08ad074b493fb8ca"
+                "url": "https://github.com/m1/Env.git",
+                "reference": "6013b1475c21d4c7076e1aaad9df5b2fae060cbb"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/thecodingmachine/nodejs-installer/zipball/473ddea36b9e5428e776cd9b08ad074b493fb8ca",
-                "reference": "473ddea36b9e5428e776cd9b08ad074b493fb8ca",
+                "url": "https://api.github.com/repos/m1/Env/zipball/6013b1475c21d4c7076e1aaad9df5b2fae060cbb",
+                "reference": "6013b1475c21d4c7076e1aaad9df5b2fae060cbb",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.0"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "4.*",
+                "scrutinizer/ocular": "~1.1",
+                "squizlabs/php_codesniffer": "^2.3"
+            },
+            "suggest": {
+                "josegonzalez/dotenv": "For loading of .env",
+                "m1/vars": "For loading of configs"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "M1\\Env\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Miles Croxford",
+                    "email": "hello@milescroxford.com",
+                    "homepage": "http://milescroxford.com",
+                    "role": "Developer"
+                }
+            ],
+            "description": "Env is a lightweight library bringing .env file parser compatibility to PHP. In short - it enables you to read .env files with PHP.",
+            "homepage": "https://github.com/m1/Env",
+            "keywords": [
+                ".env",
+                "config",
+                "dotenv",
+                "env",
+                "loader",
+                "m1",
+                "parser",
+                "support"
+            ],
+            "time": "2016-01-07 13:21:36"
+        },
+        {
+            "name": "mouf/nodejs-installer",
+            "version": "v1.0.10",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/thecodingmachine/nodejs-installer.git",
+                "reference": "bc598de486bb450e684221a3abcbfd6017dfca35"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/thecodingmachine/nodejs-installer/zipball/bc598de486bb450e684221a3abcbfd6017dfca35",
+                "reference": "bc598de486bb450e684221a3abcbfd6017dfca35",
                 "shasum": ""
             },
             "require": {
@@ -107,20 +171,20 @@
                 "nodejs",
                 "npm"
             ],
-            "time": "2015-06-15 14:48:26"
+            "time": "2016-01-05 14:00:57"
         },
         {
             "name": "pmvc-app/hello_app",
-            "version": "0.1.2",
+            "version": "0.5.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/pmvc-app/hello_app.git",
-                "reference": "aa9b5eff5a1721e959f6c1c0b6bfb10d37c1d1a2"
+                "reference": "0cf12f9dd6f876ab7a52a790aeddc9cf1bd1a36a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/pmvc-app/hello_app/zipball/aa9b5eff5a1721e959f6c1c0b6bfb10d37c1d1a2",
-                "reference": "aa9b5eff5a1721e959f6c1c0b6bfb10d37c1d1a2",
+                "url": "https://api.github.com/repos/pmvc-app/hello_app/zipball/0cf12f9dd6f876ab7a52a790aeddc9cf1bd1a36a",
+                "reference": "0cf12f9dd6f876ab7a52a790aeddc9cf1bd1a36a",
                 "shasum": ""
             },
             "require": {
@@ -143,7 +207,7 @@
                 "plug-in",
                 "pmvc"
             ],
-            "time": "2015-08-09 10:28:56"
+            "time": "2016-01-31 18:13:38"
         },
         {
             "name": "pmvc-plugin/asset",
@@ -184,16 +248,16 @@
         },
         {
             "name": "pmvc-plugin/debug",
-            "version": "0.2",
+            "version": "0.2.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/pmvc-plugin/debug.git",
-                "reference": "14d11207f6047c8a1098b22105391236b8c68d85"
+                "reference": "af8e1f094184f0ae2ccd2921339d227aae4c1404"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/pmvc-plugin/debug/zipball/14d11207f6047c8a1098b22105391236b8c68d85",
-                "reference": "14d11207f6047c8a1098b22105391236b8c68d85",
+                "url": "https://api.github.com/repos/pmvc-plugin/debug/zipball/af8e1f094184f0ae2ccd2921339d227aae4c1404",
+                "reference": "af8e1f094184f0ae2ccd2921339d227aae4c1404",
                 "shasum": ""
             },
             "require": {
@@ -217,7 +281,7 @@
                 "plug-in",
                 "pmvc"
             ],
-            "time": "2015-08-02 19:46:09"
+            "time": "2015-09-08 05:41:45"
         },
         {
             "name": "pmvc-plugin/debug_console",
@@ -258,16 +322,16 @@
         },
         {
             "name": "pmvc-plugin/dispatcher",
-            "version": "0.1.1",
+            "version": "0.1.4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/pmvc-plugin/dispatcher.git",
-                "reference": "dd74bf7ed4b0a9c7488027ac335d0096b73ea983"
+                "reference": "32ad63e77c19b05812f25189dff9e1965065b039"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/pmvc-plugin/dispatcher/zipball/dd74bf7ed4b0a9c7488027ac335d0096b73ea983",
-                "reference": "dd74bf7ed4b0a9c7488027ac335d0096b73ea983",
+                "url": "https://api.github.com/repos/pmvc-plugin/dispatcher/zipball/32ad63e77c19b05812f25189dff9e1965065b039",
+                "reference": "32ad63e77c19b05812f25189dff9e1965065b039",
                 "shasum": ""
             },
             "require": {
@@ -291,20 +355,20 @@
                 "plug-in",
                 "pmvc"
             ],
-            "time": "2015-07-06 16:59:08"
+            "time": "2016-01-02 11:38:00"
         },
         {
             "name": "pmvc-plugin/dotenv",
-            "version": "0.1.2",
+            "version": "0.1.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/pmvc-plugin/dotenv.git",
-                "reference": "03838d8e2310a2b2dcc0e493064de964b2dbe7cb"
+                "reference": "6a7f30145f73208956f2fe87f201f66a8e604173"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/pmvc-plugin/dotenv/zipball/03838d8e2310a2b2dcc0e493064de964b2dbe7cb",
-                "reference": "03838d8e2310a2b2dcc0e493064de964b2dbe7cb",
+                "url": "https://api.github.com/repos/pmvc-plugin/dotenv/zipball/6a7f30145f73208956f2fe87f201f66a8e604173",
+                "reference": "6a7f30145f73208956f2fe87f201f66a8e604173",
                 "shasum": ""
             },
             "require": {
@@ -329,20 +393,20 @@
                 "plug-in",
                 "pmvc"
             ],
-            "time": "2015-08-06 18:11:25"
+            "time": "2015-09-05 12:26:03"
         },
         {
             "name": "pmvc-plugin/error",
-            "version": "0.1",
+            "version": "0.1.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/pmvc-plugin/error.git",
-                "reference": "076b6391f072fedbbe73a9bd549a7c729d7bd096"
+                "reference": "ea6357c8e4dde3f7808a0d7b02aba8a8e9784a22"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/pmvc-plugin/error/zipball/076b6391f072fedbbe73a9bd549a7c729d7bd096",
-                "reference": "076b6391f072fedbbe73a9bd549a7c729d7bd096",
+                "url": "https://api.github.com/repos/pmvc-plugin/error/zipball/ea6357c8e4dde3f7808a0d7b02aba8a8e9784a22",
+                "reference": "ea6357c8e4dde3f7808a0d7b02aba8a8e9784a22",
                 "shasum": ""
             },
             "require": {
@@ -368,7 +432,7 @@
                 "plug-in",
                 "pmvc"
             ],
-            "time": "2015-07-10 14:02:45"
+            "time": "2015-12-27 14:39:21"
         },
         {
             "name": "pmvc-plugin/get",
@@ -408,16 +472,16 @@
         },
         {
             "name": "pmvc-plugin/routing",
-            "version": "0.1.1",
+            "version": "0.1.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/pmvc-plugin/routing.git",
-                "reference": "1de1cf7a9475bb028cb99cefd672bde9382af234"
+                "reference": "2b1343a6e42b6c5c8ec3966b1e5a4bf0310e9dc6"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/pmvc-plugin/routing/zipball/1de1cf7a9475bb028cb99cefd672bde9382af234",
-                "reference": "1de1cf7a9475bb028cb99cefd672bde9382af234",
+                "url": "https://api.github.com/repos/pmvc-plugin/routing/zipball/2b1343a6e42b6c5c8ec3966b1e5a4bf0310e9dc6",
+                "reference": "2b1343a6e42b6c5c8ec3966b1e5a4bf0310e9dc6",
                 "shasum": ""
             },
             "require": {
@@ -441,20 +505,20 @@
                 "pmvc",
                 "routing"
             ],
-            "time": "2015-07-07 18:44:53"
+            "time": "2016-01-02 12:10:09"
         },
         {
             "name": "pmvc-plugin/url",
-            "version": "0.1.3",
+            "version": "0.1.4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/pmvc-plugin/url.git",
-                "reference": "b118f46302032eed67ecb4111a5613dadd58549b"
+                "reference": "93bbfbd0bc6931eb48f5a33c9a50f03ab5770c07"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/pmvc-plugin/url/zipball/b118f46302032eed67ecb4111a5613dadd58549b",
-                "reference": "b118f46302032eed67ecb4111a5613dadd58549b",
+                "url": "https://api.github.com/repos/pmvc-plugin/url/zipball/93bbfbd0bc6931eb48f5a33c9a50f03ab5770c07",
+                "reference": "93bbfbd0bc6931eb48f5a33c9a50f03ab5770c07",
                 "shasum": ""
             },
             "require": {
@@ -478,20 +542,20 @@
                 "pmvc",
                 "url"
             ],
-            "time": "2015-07-27 20:02:58"
+            "time": "2015-08-14 13:50:34"
         },
         {
             "name": "pmvc-plugin/view",
-            "version": "0.2",
+            "version": "0.2.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/pmvc-plugin/view.git",
-                "reference": "018cefb9edc5cd222e6885b35103f0dac3393cf7"
+                "reference": "7d2c77e7d9b6dec7af067f619ff01b945ec39604"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/pmvc-plugin/view/zipball/018cefb9edc5cd222e6885b35103f0dac3393cf7",
-                "reference": "018cefb9edc5cd222e6885b35103f0dac3393cf7",
+                "url": "https://api.github.com/repos/pmvc-plugin/view/zipball/7d2c77e7d9b6dec7af067f619ff01b945ec39604",
+                "reference": "7d2c77e7d9b6dec7af067f619ff01b945ec39604",
                 "shasum": ""
             },
             "require": {
@@ -520,20 +584,20 @@
                 "pmvc",
                 "view"
             ],
-            "time": "2015-07-29 18:23:20"
+            "time": "2016-01-10 16:51:04"
         },
         {
             "name": "pmvc-plugin/view_react",
-            "version": "0.2.2",
+            "version": "0.2.7",
             "source": {
                 "type": "git",
                 "url": "https://github.com/pmvc-plugin/view_react.git",
-                "reference": "116f9ff7699d0a475836a0809f2faa5e236cceb7"
+                "reference": "c1b39437ab85828fb8dbb674d88937385625095e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/pmvc-plugin/view_react/zipball/116f9ff7699d0a475836a0809f2faa5e236cceb7",
-                "reference": "116f9ff7699d0a475836a0809f2faa5e236cceb7",
+                "url": "https://api.github.com/repos/pmvc-plugin/view_react/zipball/c1b39437ab85828fb8dbb674d88937385625095e",
+                "reference": "c1b39437ab85828fb8dbb674d88937385625095e",
                 "shasum": ""
             },
             "require": {
@@ -560,7 +624,7 @@
                 "template",
                 "view"
             ],
-            "time": "2015-07-29 19:14:44"
+            "time": "2016-01-24 18:37:29"
         },
         {
             "name": "pmvc-theme/hello_react",
@@ -601,16 +665,16 @@
         },
         {
             "name": "pmvc/pmvc",
-            "version": "0.2.2",
+            "version": "0.5.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/pmvc/pmvc.git",
-                "reference": "de21dc5b930f69eb9f79ac7dabf1a194878cfe02"
+                "reference": "dc7aadd0576f5340c98e5da943f1e7144819b1b1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/pmvc/pmvc/zipball/de21dc5b930f69eb9f79ac7dabf1a194878cfe02",
-                "reference": "de21dc5b930f69eb9f79ac7dabf1a194878cfe02",
+                "url": "https://api.github.com/repos/pmvc/pmvc/zipball/dc7aadd0576f5340c98e5da943f1e7144819b1b1",
+                "reference": "dc7aadd0576f5340c98e5da943f1e7144819b1b1",
                 "shasum": ""
             },
             "require": {
@@ -636,7 +700,6 @@
                 }
             ],
             "description": "The New PHP5.6 MVC framework, conatain double engine and double framework",
-            "homepage": "https://github.com/pmvc/pmvc",
             "keywords": [
                 "framework",
                 "mvc",
@@ -645,7 +708,7 @@
                 "plug-in",
                 "pmvc"
             ],
-            "time": "2015-07-29 18:19:44"
+            "time": "2016-01-31 14:34:15"
         }
     ],
     "packages-dev": [],

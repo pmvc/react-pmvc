@@ -9,7 +9,7 @@ class ReactAppTest extends PHPUnit_Framework_TestCase
                 'dispatcher'=>null
                 ,'error'=>null
                 ,'debug'=>null
-                ,'dotenv'=>array('envfile'=>'.env.sample')
+                ,'dotenv'=>array('envFile'=>'.env.sample')
                 ,'routing'=>null
             )
             ,_ERROR_REPORTING=>E_ALL
@@ -23,7 +23,7 @@ class ReactAppTest extends PHPUnit_Framework_TestCase
         ));
         if($controller->plugApp()){
             ob_start();
-            $controller->process();
+            $controller();
             $output = ob_get_contents();
             ob_end_clean();
         }

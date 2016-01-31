@@ -8,7 +8,7 @@ $options = array(
         'dispatcher'=>null
         ,'error'=>null
         ,'debug'=>null
-        ,'dotenv'=>array('envfile'=>'../.env')
+        ,'dotenv'=>array('envFile'=>'../.env')
         ,'routing'=>null
     )
     ,_ERROR_REPORTING=>E_ALL
@@ -16,7 +16,7 @@ $options = array(
 
 $controller = new mvc($options);
 if($controller->plugApp()){
-    $controller->process();
+    $controller();
 }
 
 

@@ -1,11 +1,13 @@
 {
     "require": {
         "pmvc/pmvc": "*",
+        "pmvc-plugin/app_action_router": "*",
+        "pmvc-plugin/controller": "*",
         "pmvc-plugin/dispatcher": "*",
-        "pmvc-plugin/routing": "*",
         "pmvc-plugin/dotenv": "*",
         "pmvc-plugin/error": "*",
         "pmvc-plugin/debug": "*",
+        "pmvc-plugin/debug_console": "*",
         "pmvc-app/hello_app": "*",
         "pmvc-theme/hello_react": "*",
         "mouf/nodejs-installer": "~1.0"

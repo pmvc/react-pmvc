@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "0962d7b625cd782736446e8565f70e78",
-    "content-hash": "872c64a9754ebf62b7ffdcaa18755ff6",
+    "hash": "16fce6689c6cb1c35e26a430f3be8196",
+    "content-hash": "d4874d783edfb03e1c895193571d608e",
     "packages": [
         {
             "name": "josegonzalez/dotenv",
@@ -210,6 +210,44 @@
             "time": "2016-01-31 18:13:38"
         },
         {
+            "name": "pmvc-plugin/app_action_router",
+            "version": "0.7.6",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/pmvc-plugin/app_action_router.git",
+                "reference": "307ac5bee4513e359e5e1381c584ac8db5360944"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/pmvc-plugin/app_action_router/zipball/307ac5bee4513e359e5e1381c584ac8db5360944",
+                "reference": "307ac5bee4513e359e5e1381c584ac8db5360944",
+                "shasum": ""
+            },
+            "require": {
+                "pmvc-plugin/http": "*",
+                "pmvc-plugin/url": "*",
+                "pmvc/pmvc": "*"
+            },
+            "type": "library",
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Hill",
+                    "email": "hill@kimo.com"
+                }
+            ],
+            "description": "PMVC App Action Router",
+            "keywords": [
+                "plug-in",
+                "pmvc",
+                "router"
+            ],
+            "time": "2016-04-17 08:59:01"
+        },
+        {
             "name": "pmvc-plugin/asset",
             "version": "0.1",
             "source": {
@@ -247,21 +285,61 @@
             "time": "2015-07-04 17:48:51"
         },
         {
-            "name": "pmvc-plugin/debug",
-            "version": "0.2.3",
+            "name": "pmvc-plugin/controller",
+            "version": "0.1.5",
             "source": {
                 "type": "git",
-                "url": "https://github.com/pmvc-plugin/debug.git",
-                "reference": "af8e1f094184f0ae2ccd2921339d227aae4c1404"
+                "url": "https://github.com/pmvc-plugin/controller.git",
+                "reference": "ed95b3ca5c78679fdf0ff5959493e954d37a49c4"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/pmvc-plugin/debug/zipball/af8e1f094184f0ae2ccd2921339d227aae4c1404",
-                "reference": "af8e1f094184f0ae2ccd2921339d227aae4c1404",
+                "url": "https://api.github.com/repos/pmvc-plugin/controller/zipball/ed95b3ca5c78679fdf0ff5959493e954d37a49c4",
+                "reference": "ed95b3ca5c78679fdf0ff5959493e954d37a49c4",
                 "shasum": ""
             },
             "require": {
-                "pmvc-plugin/debug_console": "*"
+                "pmvc/pmvc": "*"
+            },
+            "require-dev": {
+                "squizlabs/php_codesniffer": "@stable"
+            },
+            "type": "library",
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Hill",
+                    "email": "hill@kimo.com"
+                }
+            ],
+            "description": "PMVC Controller",
+            "homepage": "https://github.com/pmvc/pmvc",
+            "keywords": [
+                "controller",
+                "plug-in",
+                "pmvc"
+            ],
+            "time": "2016-04-21 07:38:45"
+        },
+        {
+            "name": "pmvc-plugin/debug",
+            "version": "0.2.13",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/pmvc-plugin/debug.git",
+                "reference": "d6bb3f629fe4fca462c00fd443596b4923422622"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/pmvc-plugin/debug/zipball/d6bb3f629fe4fca462c00fd443596b4923422622",
+                "reference": "d6bb3f629fe4fca462c00fd443596b4923422622",
+                "shasum": ""
+            },
+            "require": {
+                "pmvc/pmvc": "*"
             },
             "type": "library",
             "notification-url": "https://packagist.org/downloads/",
@@ -281,24 +359,25 @@
                 "plug-in",
                 "pmvc"
             ],
-            "time": "2015-09-08 05:41:45"
+            "time": "2016-04-18 06:52:02"
         },
         {
             "name": "pmvc-plugin/debug_console",
-            "version": "0.1.1",
+            "version": "0.1.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/pmvc-plugin/debug_console.git",
-                "reference": "1950f06a19ccbb41cae6483f41a3883ad6a48f15"
+                "reference": "4812776f39224a5b5fbfea7276d1b6c7ffe562d5"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/pmvc-plugin/debug_console/zipball/1950f06a19ccbb41cae6483f41a3883ad6a48f15",
-                "reference": "1950f06a19ccbb41cae6483f41a3883ad6a48f15",
+                "url": "https://api.github.com/repos/pmvc-plugin/debug_console/zipball/4812776f39224a5b5fbfea7276d1b6c7ffe562d5",
+                "reference": "4812776f39224a5b5fbfea7276d1b6c7ffe562d5",
                 "shasum": ""
             },
             "require": {
-                "pmvc-plugin/asset": "*"
+                "pmvc-plugin/asset": "*",
+                "pmvc-plugin/debug": "*"
             },
             "type": "library",
             "notification-url": "https://packagist.org/downloads/",
@@ -318,20 +397,20 @@
                 "plug-in",
                 "pmvc"
             ],
-            "time": "2015-07-23 12:58:57"
+            "time": "2016-04-04 18:53:28"
         },
         {
             "name": "pmvc-plugin/dispatcher",
-            "version": "0.1.4",
+            "version": "0.1.7",
             "source": {
                 "type": "git",
                 "url": "https://github.com/pmvc-plugin/dispatcher.git",
-                "reference": "32ad63e77c19b05812f25189dff9e1965065b039"
+                "reference": "fc7f8ddf5ccfdf21855d7439d46d4d9071ae0886"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/pmvc-plugin/dispatcher/zipball/32ad63e77c19b05812f25189dff9e1965065b039",
-                "reference": "32ad63e77c19b05812f25189dff9e1965065b039",
+                "url": "https://api.github.com/repos/pmvc-plugin/dispatcher/zipball/fc7f8ddf5ccfdf21855d7439d46d4d9071ae0886",
+                "reference": "fc7f8ddf5ccfdf21855d7439d46d4d9071ae0886",
                 "shasum": ""
             },
             "require": {
@@ -355,24 +434,25 @@
                 "plug-in",
                 "pmvc"
             ],
-            "time": "2016-01-02 11:38:00"
+            "time": "2016-03-05 19:16:58"
         },
         {
             "name": "pmvc-plugin/dotenv",
-            "version": "0.1.3",
+            "version": "0.1.8",
             "source": {
                 "type": "git",
                 "url": "https://github.com/pmvc-plugin/dotenv.git",
-                "reference": "6a7f30145f73208956f2fe87f201f66a8e604173"
+                "reference": "37de47859fcf936e514b941f95704e3ce0cad517"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/pmvc-plugin/dotenv/zipball/6a7f30145f73208956f2fe87f201f66a8e604173",
-                "reference": "6a7f30145f73208956f2fe87f201f66a8e604173",
+                "url": "https://api.github.com/repos/pmvc-plugin/dotenv/zipball/37de47859fcf936e514b941f95704e3ce0cad517",
+                "reference": "37de47859fcf936e514b941f95704e3ce0cad517",
                 "shasum": ""
             },
             "require": {
                 "josegonzalez/dotenv": "*",
+                "pmvc-plugin/underscore": "*",
                 "pmvc/pmvc": "*"
             },
             "type": "library",
@@ -393,20 +473,20 @@
                 "plug-in",
                 "pmvc"
             ],
-            "time": "2015-09-05 12:26:03"
+            "time": "2016-03-24 12:39:01"
         },
         {
             "name": "pmvc-plugin/error",
-            "version": "0.1.3",
+            "version": "0.1.5",
             "source": {
                 "type": "git",
                 "url": "https://github.com/pmvc-plugin/error.git",
-                "reference": "ea6357c8e4dde3f7808a0d7b02aba8a8e9784a22"
+                "reference": "79bb8aa99863acae3f2283be66350e5a67ac9ddd"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/pmvc-plugin/error/zipball/ea6357c8e4dde3f7808a0d7b02aba8a8e9784a22",
-                "reference": "ea6357c8e4dde3f7808a0d7b02aba8a8e9784a22",
+                "url": "https://api.github.com/repos/pmvc-plugin/error/zipball/79bb8aa99863acae3f2283be66350e5a67ac9ddd",
+                "reference": "79bb8aa99863acae3f2283be66350e5a67ac9ddd",
                 "shasum": ""
             },
             "require": {
@@ -432,7 +512,7 @@
                 "plug-in",
                 "pmvc"
             ],
-            "time": "2015-12-27 14:39:21"
+            "time": "2016-03-22 03:59:02"
         },
         {
             "name": "pmvc-plugin/get",
@@ -471,21 +551,56 @@
             "time": "2015-07-29 16:37:56"
         },
         {
-            "name": "pmvc-plugin/routing",
-            "version": "0.1.2",
+            "name": "pmvc-plugin/http",
+            "version": "0.7.5",
             "source": {
                 "type": "git",
-                "url": "https://github.com/pmvc-plugin/routing.git",
-                "reference": "2b1343a6e42b6c5c8ec3966b1e5a4bf0310e9dc6"
+                "url": "https://github.com/pmvc-plugin/http.git",
+                "reference": "2a5deba5e8bac7d42997451109bac36974b8e821"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/pmvc-plugin/routing/zipball/2b1343a6e42b6c5c8ec3966b1e5a4bf0310e9dc6",
-                "reference": "2b1343a6e42b6c5c8ec3966b1e5a4bf0310e9dc6",
+                "url": "https://api.github.com/repos/pmvc-plugin/http/zipball/2a5deba5e8bac7d42997451109bac36974b8e821",
+                "reference": "2a5deba5e8bac7d42997451109bac36974b8e821",
                 "shasum": ""
             },
             "require": {
-                "pmvc-plugin/url": "*",
+                "pmvc-plugin/controller": "*"
+            },
+            "type": "library",
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Hill",
+                    "email": "hill@kimo.com"
+                }
+            ],
+            "description": "PMVC Http Support",
+            "keywords": [
+                "http",
+                "plug-in",
+                "pmvc"
+            ],
+            "time": "2016-04-16 15:10:58"
+        },
+        {
+            "name": "pmvc-plugin/underscore",
+            "version": "0.1.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/pmvc-plugin/underscore.git",
+                "reference": "ad480f16bfbad7bc34a4c335a159543bd7fdacbf"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/pmvc-plugin/underscore/zipball/ad480f16bfbad7bc34a4c335a159543bd7fdacbf",
+                "reference": "ad480f16bfbad7bc34a4c335a159543bd7fdacbf",
+                "shasum": ""
+            },
+            "require": {
                 "pmvc/pmvc": "*"
             },
             "type": "library",
@@ -499,26 +614,28 @@
                     "email": "hill@kimo.com"
                 }
             ],
-            "description": "PMVC routing",
+            "description": "Convert array or camel case to underscore, or underscore to others.",
             "keywords": [
+                "array",
+                "camelcase",
                 "plug-in",
                 "pmvc",
-                "routing"
+                "underscore"
             ],
-            "time": "2016-01-02 12:10:09"
+            "time": "2016-03-23 04:52:22"
         },
         {
             "name": "pmvc-plugin/url",
-            "version": "0.1.4",
+            "version": "0.1.7",
             "source": {
                 "type": "git",
                 "url": "https://github.com/pmvc-plugin/url.git",
-                "reference": "93bbfbd0bc6931eb48f5a33c9a50f03ab5770c07"
+                "reference": "c5ecdbae0332397a987ddc0aadc899f83433c32b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/pmvc-plugin/url/zipball/93bbfbd0bc6931eb48f5a33c9a50f03ab5770c07",
-                "reference": "93bbfbd0bc6931eb48f5a33c9a50f03ab5770c07",
+                "url": "https://api.github.com/repos/pmvc-plugin/url/zipball/c5ecdbae0332397a987ddc0aadc899f83433c32b",
+                "reference": "c5ecdbae0332397a987ddc0aadc899f83433c32b",
                 "shasum": ""
             },
             "require": {
@@ -542,20 +659,20 @@
                 "pmvc",
                 "url"
             ],
-            "time": "2015-08-14 13:50:34"
+            "time": "2016-03-21 10:11:35"
         },
         {
             "name": "pmvc-plugin/view",
-            "version": "0.2.3",
+            "version": "0.2.8",
             "source": {
                 "type": "git",
                 "url": "https://github.com/pmvc-plugin/view.git",
-                "reference": "7d2c77e7d9b6dec7af067f619ff01b945ec39604"
+                "reference": "32745737ca1938e80d5b19eed0f1dd1d8c78ae3b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/pmvc-plugin/view/zipball/7d2c77e7d9b6dec7af067f619ff01b945ec39604",
-                "reference": "7d2c77e7d9b6dec7af067f619ff01b945ec39604",
+                "url": "https://api.github.com/repos/pmvc-plugin/view/zipball/32745737ca1938e80d5b19eed0f1dd1d8c78ae3b",
+                "reference": "32745737ca1938e80d5b19eed0f1dd1d8c78ae3b",
                 "shasum": ""
             },
             "require": {
@@ -584,20 +701,20 @@
                 "pmvc",
                 "view"
             ],
-            "time": "2016-01-10 16:51:04"
+            "time": "2016-03-02 09:54:41"
         },
         {
             "name": "pmvc-plugin/view_react",
-            "version": "0.2.7",
+            "version": "0.2.9",
             "source": {
                 "type": "git",
                 "url": "https://github.com/pmvc-plugin/view_react.git",
-                "reference": "c1b39437ab85828fb8dbb674d88937385625095e"
+                "reference": "4102b9fbde4b31ea1c6d74588aa1db839634c9c2"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/pmvc-plugin/view_react/zipball/c1b39437ab85828fb8dbb674d88937385625095e",
-                "reference": "c1b39437ab85828fb8dbb674d88937385625095e",
+                "url": "https://api.github.com/repos/pmvc-plugin/view_react/zipball/4102b9fbde4b31ea1c6d74588aa1db839634c9c2",
+                "reference": "4102b9fbde4b31ea1c6d74588aa1db839634c9c2",
                 "shasum": ""
             },
             "require": {
@@ -624,7 +741,7 @@
                 "template",
                 "view"
             ],
-            "time": "2016-01-24 18:37:29"
+            "time": "2016-02-09 05:33:55"
         },
         {
             "name": "pmvc-theme/hello_react",
@@ -665,16 +782,16 @@
         },
         {
             "name": "pmvc/pmvc",
-            "version": "0.5.1",
+            "version": "0.7.38",
             "source": {
                 "type": "git",
                 "url": "https://github.com/pmvc/pmvc.git",
-                "reference": "dc7aadd0576f5340c98e5da943f1e7144819b1b1"
+                "reference": "dea579ace6a426a8dca0a0b63966006b5eb4868b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/pmvc/pmvc/zipball/dc7aadd0576f5340c98e5da943f1e7144819b1b1",
-                "reference": "dc7aadd0576f5340c98e5da943f1e7144819b1b1",
+                "url": "https://api.github.com/repos/pmvc/pmvc/zipball/dea579ace6a426a8dca0a0b63966006b5eb4868b",
+                "reference": "dea579ace6a426a8dca0a0b63966006b5eb4868b",
                 "shasum": ""
             },
             "require": {
@@ -708,7 +825,7 @@
                 "plug-in",
                 "pmvc"
             ],
-            "time": "2016-01-31 14:34:15"
+            "time": "2016-04-25 09:16:29"
         }
     ],
     "packages-dev": [],

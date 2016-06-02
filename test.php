@@ -14,7 +14,7 @@ class ReactAppTest extends PHPUnit_Framework_TestCase
         ]);
         $controller = \PMVC\plug('controller',[
             _ERROR_REPORTING=>E_ALL
-            ,_RUN_PARENT=>'apps'
+            ,_RUN_APPS=>'apps'
             ,'NODE'=>'vendor/bin/node'
             ,_TEMPLATE_DIR=>'vendor/pmvc-theme/hello_react'
         ]);

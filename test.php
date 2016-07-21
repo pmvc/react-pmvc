@@ -9,12 +9,11 @@ class ReactAppTest extends PHPUnit_Framework_TestCase
             ,'dispatcher'=>null
             ,'error'=>null
             ,'debug'=>null
-            ,'dotenv'=>array('envFile'=>'.env.sample')
+            ,'dotenv'=>['.env.sample']
             ,'app_action_router'=>null
         ]);
         $controller = \PMVC\plug('controller',[
-            _ERROR_REPORTING=>E_ALL
-            ,_RUN_APPS=>'apps'
+            _RUN_APPS=>'apps'
             ,'NODE'=>'vendor/bin/node'
             ,_TEMPLATE_DIR=>'vendor/pmvc-theme/hello_react'
         ]);

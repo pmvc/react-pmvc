@@ -8,7 +8,7 @@ class ReactAppTest extends PHPUnit_Framework_TestCase
             'controller'=>null
             ,'dispatcher'=>null
             ,'error'=>null
-            ,'debug'=>null
+            ,'debug'=>['output'=>'debug_cli']
             ,'dotenv'=>['.env.sample']
             ,'app_action_router'=>null
         ]);

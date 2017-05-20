@@ -825,16 +825,16 @@
         },
         {
             "name": "pmvc-theme/hello_react",
-            "version": "0.1.4",
+            "version": "0.1.5",
             "source": {
                 "type": "git",
                 "url": "https://github.com/pmvc-theme/hello_react.git",
-                "reference": "0af518867db4e7bbfb935180d78033d46bbf4b3f"
+                "reference": "1f233f76085974d790e3e9573e1ccf96e3fa0daa"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/pmvc-theme/hello_react/zipball/0af518867db4e7bbfb935180d78033d46bbf4b3f",
-                "reference": "0af518867db4e7bbfb935180d78033d46bbf4b3f",
+                "url": "https://api.github.com/repos/pmvc-theme/hello_react/zipball/1f233f76085974d790e3e9573e1ccf96e3fa0daa",
+                "reference": "1f233f76085974d790e3e9573e1ccf96e3fa0daa",
                 "shasum": ""
             },
             "require": {
@@ -858,7 +858,7 @@
                 "react",
                 "theme"
             ],
-            "time": "2016-07-26T19:06:09+00:00"
+            "time": "2017-05-09T13:22:54+00:00"
         },
         {
             "name": "pmvc/pmvc",

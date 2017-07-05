@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "3b50b9bcc800d8df108f192336cf6f07",
+    "content-hash": "9f9884c0e60fbe77e39aaf0a073e54a3",
     "packages": [
         {
             "name": "mouf/nodejs-installer",
@@ -254,20 +254,20 @@
         },
         {
             "name": "pmvc-plugin/cookie",
-            "version": "0.0.1",
+            "version": "0.0.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/pmvc-plugin/cookie.git",
-                "reference": "9c3ca8fbf0427526b5a1615977dfa485f84d17bc"
+                "reference": "3a9143ac0f416ad91ffa0801e609276eb9dcd7e5"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/pmvc-plugin/cookie/zipball/9c3ca8fbf0427526b5a1615977dfa485f84d17bc",
-                "reference": "9c3ca8fbf0427526b5a1615977dfa485f84d17bc",
+                "url": "https://api.github.com/repos/pmvc-plugin/cookie/zipball/3a9143ac0f416ad91ffa0801e609276eb9dcd7e5",
+                "reference": "3a9143ac0f416ad91ffa0801e609276eb9dcd7e5",
                 "shasum": ""
             },
             "require": {
-                "pmvc-plugin/get": "*"
+                "pmvc/pmvc": "*"
             },
             "type": "library",
             "notification-url": "https://packagist.org/downloads/",
@@ -287,7 +287,7 @@
                 "plug-in",
                 "pmvc"
             ],
-            "time": "2017-07-01T09:34:44+00:00"
+            "time": "2017-07-05T13:23:16+00:00"
         },
         {
             "name": "pmvc-plugin/debug",
@@ -442,16 +442,16 @@
         },
         {
             "name": "pmvc-plugin/dev",
-            "version": "0.1.10",
+            "version": "0.1.11",
             "source": {
                 "type": "git",
                 "url": "https://github.com/pmvc-plugin/dev.git",
-                "reference": "48e1b3cfb6357efb1d5d6202ed3f7ab43f6d7cf4"
+                "reference": "40e56e8bb1a34e8c7586bdd429d87ac3df1b477f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/pmvc-plugin/dev/zipball/48e1b3cfb6357efb1d5d6202ed3f7ab43f6d7cf4",
-                "reference": "48e1b3cfb6357efb1d5d6202ed3f7ab43f6d7cf4",
+                "url": "https://api.github.com/repos/pmvc-plugin/dev/zipball/40e56e8bb1a34e8c7586bdd429d87ac3df1b477f",
+                "reference": "40e56e8bb1a34e8c7586bdd429d87ac3df1b477f",
                 "shasum": ""
             },
             "require": {
@@ -475,7 +475,7 @@
                 "plug-in",
                 "pmvc"
             ],
-            "time": "2017-07-03T19:13:43+00:00"
+            "time": "2017-07-05T13:17:46+00:00"
         },
         {
             "name": "pmvc-plugin/dispatcher",
@@ -935,6 +935,37 @@
                 "theme"
             ],
             "time": "2017-07-05T05:54:43+00:00"
+        },
+        {
+            "name": "pmvc/heroku-config",
+            "version": "0.0.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/pmvc/heroku-config.git",
+                "reference": "844a37926550ea7896a3660e5db3a7af61af6805"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/pmvc/heroku-config/zipball/844a37926550ea7896a3660e5db3a7af61af6805",
+                "reference": "844a37926550ea7896a3660e5db3a7af61af6805",
+                "shasum": ""
+            },
+            "type": "library",
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Hill",
+                    "email": "hill@kimo.com"
+                }
+            ],
+            "description": "Heroku PHP centralized configs for TTFB",
+            "keywords": [
+                "heroku"
+            ],
+            "time": "2017-07-05T17:52:34+00:00"
         },
         {
             "name": "pmvc/pmvc",

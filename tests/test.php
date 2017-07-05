@@ -1,5 +1,9 @@
 <?php
-\PMVC\Load::plug();
+
+namespace PMVC\App\react;
+
+use PHPUnit_Framework_TestCase;
+
 class ReactAppTest extends PHPUnit_Framework_TestCase
 {
     function testApp()

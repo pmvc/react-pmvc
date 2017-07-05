@@ -64,16 +64,16 @@
         },
         {
             "name": "pmvc-app/hello_app",
-            "version": "0.5.1",
+            "version": "0.5.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/pmvc-app/hello_app.git",
-                "reference": "604fc7a1fd7db420f618bc3f022897a1868eda7f"
+                "reference": "9fa2bb96f9635ff0605d2ea59d8a7f4db0c52033"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/pmvc-app/hello_app/zipball/604fc7a1fd7db420f618bc3f022897a1868eda7f",
-                "reference": "604fc7a1fd7db420f618bc3f022897a1868eda7f",
+                "url": "https://api.github.com/repos/pmvc-app/hello_app/zipball/9fa2bb96f9635ff0605d2ea59d8a7f4db0c52033",
+                "reference": "9fa2bb96f9635ff0605d2ea59d8a7f4db0c52033",
                 "shasum": ""
             },
             "require": {
@@ -97,7 +97,7 @@
                 "pmvc",
                 "pmvc-app"
             ],
-            "time": "2016-12-29T08:17:37+00:00"
+            "time": "2017-07-05T18:43:30+00:00"
         },
         {
             "name": "pmvc-plugin/app_action_router",
@@ -901,16 +901,16 @@
         },
         {
             "name": "pmvc-theme/hello_react",
-            "version": "0.1.6",
+            "version": "0.1.8",
             "source": {
                 "type": "git",
                 "url": "https://github.com/pmvc-theme/hello_react.git",
-                "reference": "32caead8fc70e17854ceec12686b38a04913bf52"
+                "reference": "e22ce75951a8a0833c2ed803f4a8494eea4899ea"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/pmvc-theme/hello_react/zipball/32caead8fc70e17854ceec12686b38a04913bf52",
-                "reference": "32caead8fc70e17854ceec12686b38a04913bf52",
+                "url": "https://api.github.com/repos/pmvc-theme/hello_react/zipball/e22ce75951a8a0833c2ed803f4a8494eea4899ea",
+                "reference": "e22ce75951a8a0833c2ed803f4a8494eea4899ea",
                 "shasum": ""
             },
             "require": {
@@ -934,7 +934,7 @@
                 "react",
                 "theme"
             ],
-            "time": "2017-07-05T05:54:43+00:00"
+            "time": "2017-07-05T18:54:50+00:00"
         },
         {
             "name": "pmvc/heroku-config",

@@ -742,16 +742,16 @@
         },
         {
             "name": "pmvc-plugin/url",
-            "version": "0.1.49",
+            "version": "0.1.50",
             "source": {
                 "type": "git",
                 "url": "https://github.com/pmvc-plugin/url.git",
-                "reference": "f5bc1a589644cf6837cf3ded90304bc3928d6e53"
+                "reference": "72f670f00ada3e3f0482b41cb5b0c0b3eadfdf30"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/pmvc-plugin/url/zipball/f5bc1a589644cf6837cf3ded90304bc3928d6e53",
-                "reference": "f5bc1a589644cf6837cf3ded90304bc3928d6e53",
+                "url": "https://api.github.com/repos/pmvc-plugin/url/zipball/72f670f00ada3e3f0482b41cb5b0c0b3eadfdf30",
+                "reference": "72f670f00ada3e3f0482b41cb5b0c0b3eadfdf30",
                 "shasum": ""
             },
             "require": {
@@ -776,7 +776,7 @@
                 "pmvc",
                 "url"
             ],
-            "time": "2017-06-23T19:02:42+00:00"
+            "time": "2017-07-06T18:23:08+00:00"
         },
         {
             "name": "pmvc-plugin/view",
@@ -969,16 +969,16 @@
         },
         {
             "name": "pmvc/pmvc",
-            "version": "0.7.141",
+            "version": "0.7.142",
             "source": {
                 "type": "git",
                 "url": "https://github.com/pmvc/pmvc.git",
-                "reference": "e2a892e7c47903c82cb9d5b4584bc20aec782c42"
+                "reference": "38fa70bd5343ff6106ea524bdc45f7bfde4b16ad"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/pmvc/pmvc/zipball/e2a892e7c47903c82cb9d5b4584bc20aec782c42",
-                "reference": "e2a892e7c47903c82cb9d5b4584bc20aec782c42",
+                "url": "https://api.github.com/repos/pmvc/pmvc/zipball/38fa70bd5343ff6106ea524bdc45f7bfde4b16ad",
+                "reference": "38fa70bd5343ff6106ea524bdc45f7bfde4b16ad",
                 "shasum": ""
             },
             "require": {
@@ -1014,7 +1014,7 @@
                 "plug-in",
                 "pmvc"
             ],
-            "time": "2017-07-06T07:49:45+00:00"
+            "time": "2017-07-06T19:14:54+00:00"
         },
         {
             "name": "wp-cli/php-cli-tools",

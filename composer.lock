@@ -213,16 +213,16 @@
         },
         {
             "name": "pmvc-plugin/controller",
-            "version": "0.2.21",
+            "version": "0.3.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/pmvc-plugin/controller.git",
-                "reference": "540779418d531030b2aa9f96e2c1cc9be3894515"
+                "reference": "b8e07b28745853285062cdc64c826bbb10ebd9e7"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/pmvc-plugin/controller/zipball/540779418d531030b2aa9f96e2c1cc9be3894515",
-                "reference": "540779418d531030b2aa9f96e2c1cc9be3894515",
+                "url": "https://api.github.com/repos/pmvc-plugin/controller/zipball/b8e07b28745853285062cdc64c826bbb10ebd9e7",
+                "reference": "b8e07b28745853285062cdc64c826bbb10ebd9e7",
                 "shasum": ""
             },
             "require": {
@@ -250,7 +250,7 @@
                 "plug-in",
                 "pmvc"
             ],
-            "time": "2017-07-06T11:39:42+00:00"
+            "time": "2017-07-20T10:03:06+00:00"
         },
         {
             "name": "pmvc-plugin/cookie",

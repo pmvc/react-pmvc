@@ -19,7 +19,9 @@ PMVC integrate with react.js demo code
    * With TTFB
       * https://react-pmvc.herokuapp.com/hello_app/ttfb
       * Better performance for above fold time.
-      
+   * Compare the ttfb loading.
+      * <img src="https://pmvc.github.io/compare_ttfb.png" style="max-width:100%">
+
 
 ## Custom Code
 ### app

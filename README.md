@@ -14,7 +14,12 @@ PMVC integrate with react.js demo code
    * ln -s htdocs/ [your web server folder]
 
 ## Online demo
-   * https://react-pmvc.herokuapp.com/
+   * Without TTFB
+      * https://react-pmvc.herokuapp.com/
+   * With TTFB
+      * https://react-pmvc.herokuapp.com/hello_app/ttfb
+      * Better performance for above fold time.
+      
 
 ## Custom Code
 ### app

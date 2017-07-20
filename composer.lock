@@ -938,16 +938,16 @@
         },
         {
             "name": "pmvc/heroku-config",
-            "version": "0.0.2",
+            "version": "0.0.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/pmvc/heroku-config.git",
-                "reference": "b6049aebb3390e8cdd6afea3277c361e37ac452a"
+                "reference": "ca8e76fbd519c651cb427614efb3c4c2c0b24a7c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/pmvc/heroku-config/zipball/b6049aebb3390e8cdd6afea3277c361e37ac452a",
-                "reference": "b6049aebb3390e8cdd6afea3277c361e37ac452a",
+                "url": "https://api.github.com/repos/pmvc/heroku-config/zipball/ca8e76fbd519c651cb427614efb3c4c2c0b24a7c",
+                "reference": "ca8e76fbd519c651cb427614efb3c4c2c0b24a7c",
                 "shasum": ""
             },
             "type": "library",
@@ -965,7 +965,7 @@
             "keywords": [
                 "heroku"
             ],
-            "time": "2017-07-19T19:23:46+00:00"
+            "time": "2017-07-20T04:10:28+00:00"
         },
         {
             "name": "pmvc/pmvc",

@@ -25,3 +25,6 @@ https://github.com/pmvc/react-pmvc/tree/master/themes
 
 ### plugins
 https://github.com/pmvc/react-pmvc/tree/master/plugins
+
+## Heroku Config (or Dokku)
+https://github.com/pmvc/heroku-config

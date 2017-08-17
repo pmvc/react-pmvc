@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "a4a2eded353edcf41879f46c6e94103e",
+    "content-hash": "9f9884c0e60fbe77e39aaf0a073e54a3",
     "packages": [
         {
             "name": "mouf/nodejs-installer",
@@ -901,16 +901,16 @@
         },
         {
             "name": "pmvc-plugin/view_react",
-            "version": "0.3.10",
+            "version": "0.3.11",
             "source": {
                 "type": "git",
                 "url": "https://github.com/pmvc-plugin/view_react.git",
-                "reference": "49ee0ddf1f1d104aad719097f4b7f67501def152"
+                "reference": "cfd4260456063cb704d3d623830ee17b2f6a1590"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/pmvc-plugin/view_react/zipball/49ee0ddf1f1d104aad719097f4b7f67501def152",
-                "reference": "49ee0ddf1f1d104aad719097f4b7f67501def152",
+                "url": "https://api.github.com/repos/pmvc-plugin/view_react/zipball/cfd4260456063cb704d3d623830ee17b2f6a1590",
+                "reference": "cfd4260456063cb704d3d623830ee17b2f6a1590",
                 "shasum": ""
             },
             "require": {
@@ -937,7 +937,7 @@
                 "template",
                 "view"
             ],
-            "time": "2017-05-18T09:11:58+00:00"
+            "time": "2017-08-17T18:45:40+00:00"
         },
         {
             "name": "pmvc-theme/hello_react",

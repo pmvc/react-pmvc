@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "9f9884c0e60fbe77e39aaf0a073e54a3",
+    "content-hash": "a4a2eded353edcf41879f46c6e94103e",
     "packages": [
         {
             "name": "mouf/nodejs-installer",
@@ -782,16 +782,16 @@
         },
         {
             "name": "pmvc-plugin/url",
-            "version": "0.2.5",
+            "version": "0.2.6",
             "source": {
                 "type": "git",
                 "url": "https://github.com/pmvc-plugin/url.git",
-                "reference": "1c46c0bf958f2a0e14dac5aa2fbaed49ebe22205"
+                "reference": "ea04fbdf84300943e20cfdecb3dd48fcf22df5a3"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/pmvc-plugin/url/zipball/1c46c0bf958f2a0e14dac5aa2fbaed49ebe22205",
-                "reference": "1c46c0bf958f2a0e14dac5aa2fbaed49ebe22205",
+                "url": "https://api.github.com/repos/pmvc-plugin/url/zipball/ea04fbdf84300943e20cfdecb3dd48fcf22df5a3",
+                "reference": "ea04fbdf84300943e20cfdecb3dd48fcf22df5a3",
                 "shasum": ""
             },
             "require": {
@@ -816,7 +816,7 @@
                 "pmvc",
                 "url"
             ],
-            "time": "2017-08-13T09:09:57+00:00"
+            "time": "2017-08-17T10:54:13+00:00"
         },
         {
             "name": "pmvc-plugin/view",

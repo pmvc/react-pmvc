@@ -8,7 +8,7 @@ include_once('../vendor/autoload.php');
     ,'error'=>['all']
     ,'debug'=>null
     ,'dev'=>null
-    ,'dotenv'=>[(is_file('../.env')? '../.env' : '../.env.sample')]
+    ,'dotenv'=>[(is_file('../.env.pmvc')? '../.env.pmvc' : '../.env.sample')]
     ,'app_action_router'=>null
 ]);
 

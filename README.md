@@ -22,6 +22,8 @@ PMVC integrate with react.js demo code
    * Compare the ttfb loading.
       * <img src="https://pmvc.github.io/compare_ttfb.png" style="max-width:100%">
 
+## Heroku one click deploy
+[![Deploy](https://www.herokucdn.com/deploy/button.png)](https://heroku.com/deploy?template=https://github.com/pmvc/react-pmvc)
 
 ## Custom Code
 ### app

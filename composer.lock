@@ -249,16 +249,16 @@
         },
         {
             "name": "pmvc-plugin/controller",
-            "version": "0.3.4",
+            "version": "0.3.5",
             "source": {
                 "type": "git",
                 "url": "https://github.com/pmvc-plugin/controller.git",
-                "reference": "efa144b8ebda9c0bfd1206f2a9eb97be849523cc"
+                "reference": "6be631d636171570a06ad6ab4c9b15a24ffd4368"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/pmvc-plugin/controller/zipball/efa144b8ebda9c0bfd1206f2a9eb97be849523cc",
-                "reference": "efa144b8ebda9c0bfd1206f2a9eb97be849523cc",
+                "url": "https://api.github.com/repos/pmvc-plugin/controller/zipball/6be631d636171570a06ad6ab4c9b15a24ffd4368",
+                "reference": "6be631d636171570a06ad6ab4c9b15a24ffd4368",
                 "shasum": ""
             },
             "require": {
@@ -286,7 +286,7 @@
                 "plug-in",
                 "pmvc"
             ],
-            "time": "2017-08-03T08:57:31+00:00"
+            "time": "2017-08-19T11:44:39+00:00"
         },
         {
             "name": "pmvc-plugin/cookie",
@@ -556,16 +556,16 @@
         },
         {
             "name": "pmvc-plugin/dotenv",
-            "version": "0.2.3",
+            "version": "0.2.4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/pmvc-plugin/dotenv.git",
-                "reference": "3141bc5407dde9d467ec3ce23a6cc6dc3aac9a7e"
+                "reference": "83850c53945615edab04b6346ed7fdba195cafd6"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/pmvc-plugin/dotenv/zipball/3141bc5407dde9d467ec3ce23a6cc6dc3aac9a7e",
-                "reference": "3141bc5407dde9d467ec3ce23a6cc6dc3aac9a7e",
+                "url": "https://api.github.com/repos/pmvc-plugin/dotenv/zipball/83850c53945615edab04b6346ed7fdba195cafd6",
+                "reference": "83850c53945615edab04b6346ed7fdba195cafd6",
                 "shasum": ""
             },
             "require": {
@@ -590,7 +590,7 @@
                 "plug-in",
                 "pmvc"
             ],
-            "time": "2017-05-17T01:31:21+00:00"
+            "time": "2017-08-18T13:17:51+00:00"
         },
         {
             "name": "pmvc-plugin/error",
@@ -901,20 +901,19 @@
         },
         {
             "name": "pmvc-plugin/view_react",
-            "version": "0.3.11",
+            "version": "0.4.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/pmvc-plugin/view_react.git",
-                "reference": "cfd4260456063cb704d3d623830ee17b2f6a1590"
+                "reference": "c4b5420ffd6481bd4043297717895f5c96d14372"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/pmvc-plugin/view_react/zipball/cfd4260456063cb704d3d623830ee17b2f6a1590",
-                "reference": "cfd4260456063cb704d3d623830ee17b2f6a1590",
+                "url": "https://api.github.com/repos/pmvc-plugin/view_react/zipball/c4b5420ffd6481bd4043297717895f5c96d14372",
+                "reference": "c4b5420ffd6481bd4043297717895f5c96d14372",
                 "shasum": ""
             },
             "require": {
-                "pmvc-plugin/get": "*",
                 "pmvc-plugin/view": "*"
             },
             "type": "library",
@@ -937,20 +936,20 @@
                 "template",
                 "view"
             ],
-            "time": "2017-08-17T18:45:40+00:00"
+            "time": "2017-08-19T15:11:36+00:00"
         },
         {
             "name": "pmvc-theme/hello_react",
-            "version": "0.1.10",
+            "version": "0.1.11",
             "source": {
                 "type": "git",
                 "url": "https://github.com/pmvc-theme/hello_react.git",
-                "reference": "6cfee2c2f15f4207591a3d1294dfa69e239cb4bf"
+                "reference": "c21f07753d8c725a211bfa9d29e195a22b88b4ee"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/pmvc-theme/hello_react/zipball/6cfee2c2f15f4207591a3d1294dfa69e239cb4bf",
-                "reference": "6cfee2c2f15f4207591a3d1294dfa69e239cb4bf",
+                "url": "https://api.github.com/repos/pmvc-theme/hello_react/zipball/c21f07753d8c725a211bfa9d29e195a22b88b4ee",
+                "reference": "c21f07753d8c725a211bfa9d29e195a22b88b4ee",
                 "shasum": ""
             },
             "require": {
@@ -974,7 +973,7 @@
                 "react",
                 "theme"
             ],
-            "time": "2017-07-19T15:24:31+00:00"
+            "time": "2017-08-19T15:17:37+00:00"
         },
         {
             "name": "pmvc/heroku-config",
@@ -1009,16 +1008,16 @@
         },
         {
             "name": "pmvc/pmvc",
-            "version": "0.7.148",
+            "version": "0.7.149",
             "source": {
                 "type": "git",
                 "url": "https://github.com/pmvc/pmvc.git",
-                "reference": "df9d02a84285f9602f897a94e7d4aa108d2e8966"
+                "reference": "c188610b110633e8d8712f1ab870e6886b4b5ebe"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/pmvc/pmvc/zipball/df9d02a84285f9602f897a94e7d4aa108d2e8966",
-                "reference": "df9d02a84285f9602f897a94e7d4aa108d2e8966",
+                "url": "https://api.github.com/repos/pmvc/pmvc/zipball/c188610b110633e8d8712f1ab870e6886b4b5ebe",
+                "reference": "c188610b110633e8d8712f1ab870e6886b4b5ebe",
                 "shasum": ""
             },
             "require": {
@@ -1054,7 +1053,7 @@
                 "plug-in",
                 "pmvc"
             ],
-            "time": "2017-08-15T06:24:19+00:00"
+            "time": "2017-08-19T13:53:07+00:00"
         },
         {
             "name": "wp-cli/php-cli-tools",

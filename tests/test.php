@@ -6,6 +6,9 @@ use PHPUnit_Framework_TestCase;
 
 class ReactAppTest extends PHPUnit_Framework_TestCase
 {
+    /**
+     * @runInSeparateProcess
+     */
     function testApp()
     {
         \PMVC\initPlugin([
@@ -15,10 +18,12 @@ class ReactAppTest extends PHPUnit_Framework_TestCase
             ,'debug'=>['output'=>'debug_cli']
             ,'dotenv'=>['.env.sample']
             ,'app_action_router'=>null
+            ,'view_react'=>[
+                'NODEJS'=>'vendor/bin/node'
+            ]
         ]);
         $controller = \PMVC\plug('controller',[
             _RUN_APPS=>'apps'
-            ,'NODE'=>'vendor/bin/node'
             ,_TEMPLATE_DIR=>'vendor/pmvc-theme/hello_react'
         ]);
         if($controller->plugApp()){

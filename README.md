@@ -26,14 +26,23 @@ PMVC integrate with react.js demo code
 [![Deploy](https://www.herokucdn.com/deploy/button.png)](https://heroku.com/deploy?template=https://github.com/pmvc/react-pmvc)
 
 ## Custom Code
-### app
-https://github.com/pmvc/react-pmvc/tree/master/apps
+### Apps
+* Folder
+   * https://github.com/pmvc/react-pmvc/tree/master/apps
+* Sample code
+   * https://github.com/pmvc-app/hello_app/blob/master/index.php
 
-### theme
-https://github.com/pmvc/react-pmvc/tree/master/themes
+### Themes
+* Folder
+   * https://github.com/pmvc/react-pmvc/tree/master/themes
+* Sample code
+   * https://github.com/pmvc-theme/hello_react
 
-### plugins
-https://github.com/pmvc/react-pmvc/tree/master/plugins
+### Plugins
+* Folder
+   * https://github.com/pmvc/react-pmvc/tree/master/plugins
+* Sample code
+   * https://github.com/pmvc-plugin/hello_world
 
 ## Heroku Config (or Dokku)
 https://github.com/pmvc/heroku-config

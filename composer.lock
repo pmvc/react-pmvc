@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "9f9884c0e60fbe77e39aaf0a073e54a3",
+    "content-hash": "c711a354ee5ce85b477b2d4638ca5468",
     "packages": [
         {
             "name": "mouf/nodejs-installer",
@@ -900,6 +900,45 @@
             "time": "2017-09-01T13:37:48+00:00"
         },
         {
+            "name": "pmvc-plugin/view_config_helper",
+            "version": "0.1.23",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/pmvc-plugin/view_config_helper.git",
+                "reference": "a03a1e8ffdcfd883aae6e74d52326ac71fbd1a90"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/pmvc-plugin/view_config_helper/zipball/a03a1e8ffdcfd883aae6e74d52326ac71fbd1a90",
+                "reference": "a03a1e8ffdcfd883aae6e74d52326ac71fbd1a90",
+                "shasum": ""
+            },
+            "require": {
+                "pmvc-plugin/controller": "*",
+                "pmvc-plugin/dotenv": "*",
+                "pmvc-plugin/view": "*",
+                "pmvc/pmvc": "*"
+            },
+            "type": "library",
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Hill",
+                    "email": "hill@kimo.com"
+                }
+            ],
+            "description": "auto fill view's configure",
+            "keywords": [
+                "configure",
+                "plug-in",
+                "pmvc"
+            ],
+            "time": "2017-07-10T12:42:12+00:00"
+        },
+        {
             "name": "pmvc-plugin/view_react",
             "version": "0.4.2",
             "source": {
@@ -940,16 +979,16 @@
         },
         {
             "name": "pmvc-theme/hello_react",
-            "version": "0.1.11",
+            "version": "0.1.13",
             "source": {
                 "type": "git",
                 "url": "https://github.com/pmvc-theme/hello_react.git",
-                "reference": "c21f07753d8c725a211bfa9d29e195a22b88b4ee"
+                "reference": "04efcf46da61c8ffa06760afe8ea76e72174164b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/pmvc-theme/hello_react/zipball/c21f07753d8c725a211bfa9d29e195a22b88b4ee",
-                "reference": "c21f07753d8c725a211bfa9d29e195a22b88b4ee",
+                "url": "https://api.github.com/repos/pmvc-theme/hello_react/zipball/04efcf46da61c8ffa06760afe8ea76e72174164b",
+                "reference": "04efcf46da61c8ffa06760afe8ea76e72174164b",
                 "shasum": ""
             },
             "require": {
@@ -973,7 +1012,7 @@
                 "react",
                 "theme"
             ],
-            "time": "2017-08-19T15:17:37+00:00"
+            "time": "2017-09-13T13:03:29+00:00"
         },
         {
             "name": "pmvc/heroku-config",

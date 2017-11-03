@@ -46,3 +46,6 @@ PMVC integrate with react.js demo code
 
 ## Heroku Config (or Dokku)
 https://github.com/pmvc/heroku-config
+
+## Sourcegraph (Code read and search)
+https://sourcegraph.com/github.com/pmvc/react-pmvc

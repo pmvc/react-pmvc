@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "5ac0581b25974d361e6837a2b4decb9e",
+    "content-hash": "c711a354ee5ce85b477b2d4638ca5468",
     "packages": [
         {
             "name": "mouf/nodejs-installer",
@@ -671,16 +671,16 @@
         },
         {
             "name": "pmvc-plugin/getenv",
-            "version": "0.6.0",
+            "version": "0.6.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/pmvc-plugin/getenv.git",
-                "reference": "c38f248c713b2734bbbbcd4965569ae70c90472c"
+                "reference": "b73ec82da1d77531a44b52d4f72f0eccf4c8d4c8"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/pmvc-plugin/getenv/zipball/c38f248c713b2734bbbbcd4965569ae70c90472c",
-                "reference": "c38f248c713b2734bbbbcd4965569ae70c90472c",
+                "url": "https://api.github.com/repos/pmvc-plugin/getenv/zipball/b73ec82da1d77531a44b52d4f72f0eccf4c8d4c8",
+                "reference": "b73ec82da1d77531a44b52d4f72f0eccf4c8d4c8",
                 "shasum": ""
             },
             "require": {
@@ -704,7 +704,7 @@
                 "plug-in",
                 "pmvc"
             ],
-            "time": "2019-02-12T01:55:00+00:00"
+            "time": "2019-02-14T14:30:17+00:00"
         },
         {
             "name": "pmvc-plugin/http",
@@ -785,16 +785,16 @@
         },
         {
             "name": "pmvc-plugin/url",
-            "version": "0.2.9",
+            "version": "0.2.12",
             "source": {
                 "type": "git",
                 "url": "https://github.com/pmvc-plugin/url.git",
-                "reference": "27fcc78880a489df8d1747e2dff6ea48b6695320"
+                "reference": "d8d0fd2a024381adf3cb6b7f6e9fc3119223d717"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/pmvc-plugin/url/zipball/27fcc78880a489df8d1747e2dff6ea48b6695320",
-                "reference": "27fcc78880a489df8d1747e2dff6ea48b6695320",
+                "url": "https://api.github.com/repos/pmvc-plugin/url/zipball/d8d0fd2a024381adf3cb6b7f6e9fc3119223d717",
+                "reference": "d8d0fd2a024381adf3cb6b7f6e9fc3119223d717",
                 "shasum": ""
             },
             "require": {
@@ -819,7 +819,7 @@
                 "pmvc",
                 "url"
             ],
-            "time": "2017-09-13T18:25:26+00:00"
+            "time": "2019-02-14T14:47:22+00:00"
         },
         {
             "name": "pmvc-plugin/view",
@@ -1019,16 +1019,16 @@
         },
         {
             "name": "pmvc/heroku-config",
-            "version": "0.1.4",
+            "version": "0.1.6",
             "source": {
                 "type": "git",
                 "url": "https://github.com/pmvc/heroku-config.git",
-                "reference": "8f987da093a77b805b22a8b3c84da506cde9bdd7"
+                "reference": "388d888a41bccfc213fdc722a79afc9dc5c7cc0d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/pmvc/heroku-config/zipball/8f987da093a77b805b22a8b3c84da506cde9bdd7",
-                "reference": "8f987da093a77b805b22a8b3c84da506cde9bdd7",
+                "url": "https://api.github.com/repos/pmvc/heroku-config/zipball/388d888a41bccfc213fdc722a79afc9dc5c7cc0d",
+                "reference": "388d888a41bccfc213fdc722a79afc9dc5c7cc0d",
                 "shasum": ""
             },
             "type": "library",
@@ -1046,7 +1046,7 @@
             "keywords": [
                 "heroku"
             ],
-            "time": "2019-01-19T04:45:10+00:00"
+            "time": "2019-02-14T09:21:05+00:00"
         },
         {
             "name": "pmvc/pmvc",

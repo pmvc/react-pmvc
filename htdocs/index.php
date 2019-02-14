@@ -17,5 +17,3 @@ $controller = \PMVC\plug('controller');
 if($controller->plugApp()){
     $controller->process();
 }
-
-phpinfo();

@@ -20,6 +20,8 @@
         "pmvc-app/hello_app": "*",
         "pmvc-theme/hello_react": "*",
         "mouf/nodejs-installer": "~1.0"
+    },
+    "require-dev": {
+        "pmvc-plugin/unit": "*"
     }
-
 }

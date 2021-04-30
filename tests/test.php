@@ -2,9 +2,9 @@
 
 namespace PMVC\App\react;
 
-use PHPUnit_Framework_TestCase;
+use PMVC\TestCase;
 
-class ReactAppTest extends PHPUnit_Framework_TestCase
+class ReactAppTest extends TestCase
 {
     /**
      * @runInSeparateProcess
@@ -32,6 +32,6 @@ class ReactAppTest extends PHPUnit_Framework_TestCase
             $output = ob_get_contents();
             ob_end_clean();
         }
-        $this->assertContains('data-reactid',$output);
+        $this->haveString('hello <!-- --> world',$output);
     }
 }

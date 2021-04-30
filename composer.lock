@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "c711a354ee5ce85b477b2d4638ca5468",
+    "content-hash": "8b97fe90c7c159d99c1eb1fbc3d9d1bd",
     "packages": [
         {
             "name": "mouf/nodejs-installer",
@@ -1410,7 +1410,50 @@
             "time": "2021-03-03T12:43:49+00:00"
         }
     ],
-    "packages-dev": [],
+    "packages-dev": [
+        {
+            "name": "pmvc-plugin/unit",
+            "version": "0.0.11",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/pmvc-plugin/unit.git",
+                "reference": "eb8226173a7c30f56dba892749968650094647ce"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/pmvc-plugin/unit/zipball/eb8226173a7c30f56dba892749968650094647ce",
+                "reference": "eb8226173a7c30f56dba892749968650094647ce",
+                "shasum": ""
+            },
+            "require": {
+                "pmvc-plugin/annotation": "*",
+                "pmvc/pmvc": "*"
+            },
+            "type": "library",
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Hill",
+                    "email": "hill@kimo.com"
+                }
+            ],
+            "description": "PMVC Test Framework",
+            "homepage": "https://github.com/pmvc/pmvc",
+            "keywords": [
+                "plug-in",
+                "pmvc",
+                "unit-test"
+            ],
+            "support": {
+                "issues": "https://github.com/pmvc-plugin/unit/issues",
+                "source": "https://github.com/pmvc-plugin/unit/tree/0.0.11"
+            },
+            "time": "2021-04-06T22:57:20+00:00"
+        }
+    ],
     "aliases": [],
     "minimum-stability": "stable",
     "stability-flags": [],

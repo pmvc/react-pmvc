@@ -18,8 +18,7 @@
         "pmvc-plugin/view_cli": "*",
         "pmvc-plugin/view_config_helper": "*",
         "pmvc-app/hello_app": "*",
-        "pmvc-theme/hello_react": "*",
-        "mouf/nodejs-installer": "~1.0"
+        "pmvc-theme/hello_react": "*"
     },
     "require-dev": {
         "pmvc-plugin/unit": "*"

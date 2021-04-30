@@ -1,6 +1,6 @@
 [![Build Status](https://travis-ci.org/pmvc/react-pmvc.svg?branch=master)](https://travis-ci.org/pmvc/react-pmvc)
 
-PMVC integrate with react.js demo code 
+PMVC integrate with react.js demo app 
 ===============
 
 ## Get Start.

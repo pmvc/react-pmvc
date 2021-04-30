@@ -16,6 +16,12 @@ else
     mkdir ./themes/$DIR
     cp -a ./themes/link-to-see-demo/* ./themes/$DIR
     rm ./themes/link-to-see-demo
+
+    echo "update .env"
+    cp .env.sample .env.pmvc
+    sed -i -e "s|hello_app|${DIR}|g" .env.pmvc
+    sed -i -e "s|/vendor/pmvc-theme/hello_react|/themes/${DIR}|" .env.pmvc
+    if [ -e ".env.pmvc-e" ]; then rm .env.pmvc-e; fi
     
     echo "clean vendor, git, composer.lock clean.sh"
     find ./vendor -type d | xargs rm -rf

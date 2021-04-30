@@ -1223,16 +1223,16 @@
         },
         {
             "name": "pmvc-theme/hello_react",
-            "version": "0.2.0",
+            "version": "0.2.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/pmvc-theme/hello_react.git",
-                "reference": "0a435a741bd626cd6bd9cc52c5baafe7d22c9975"
+                "reference": "268f41bfad773b743accbc161cf7b6ca469b1042"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/pmvc-theme/hello_react/zipball/0a435a741bd626cd6bd9cc52c5baafe7d22c9975",
-                "reference": "0a435a741bd626cd6bd9cc52c5baafe7d22c9975",
+                "url": "https://api.github.com/repos/pmvc-theme/hello_react/zipball/268f41bfad773b743accbc161cf7b6ca469b1042",
+                "reference": "268f41bfad773b743accbc161cf7b6ca469b1042",
                 "shasum": ""
             },
             "require": {
@@ -1258,9 +1258,9 @@
             ],
             "support": {
                 "issues": "https://github.com/pmvc-theme/hello_react/issues",
-                "source": "https://github.com/pmvc-theme/hello_react/tree/0.2.0"
+                "source": "https://github.com/pmvc-theme/hello_react/tree/0.2.1"
             },
-            "time": "2021-04-30T11:29:34+00:00"
+            "time": "2021-04-30T13:05:19+00:00"
         },
         {
             "name": "pmvc/heroku-config",

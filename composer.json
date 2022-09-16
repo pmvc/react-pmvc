@@ -1,26 +1,32 @@
 {
-    "require": {
-        "pmvc/pmvc": "*",
-        "pmvc/heroku-config": "*",
-        "pmvc-plugin/app_action_router": "*",
-        "pmvc-plugin/controller": "*",
-        "pmvc-plugin/cli": "*",
-        "pmvc-plugin/dispatcher": "*",
-        "pmvc-plugin/dotenv": "*",
-        "pmvc-plugin/dev": "*",
-        "pmvc-plugin/error": "*",
-        "pmvc-plugin/debug": "*",
-        "pmvc-plugin/debug_console": "*",
-        "pmvc-plugin/debug_cli": "*",
-        "pmvc-plugin/default_forward": "*",
-        "pmvc-plugin/view": "*",
-        "pmvc-plugin/view_react": "*",
-        "pmvc-plugin/view_cli": "*",
-        "pmvc-plugin/view_config_helper": "*",
-        "pmvc-app/hello_app": "*",
-        "pmvc-theme/hello_react": "*"
-    },
-    "require-dev": {
-        "pmvc-plugin/unit": "*"
+  "require": {
+    "pmvc/pmvc": "*",
+    "pmvc/heroku-config": "*",
+    "pmvc-plugin/app_action_router": "*",
+    "pmvc-plugin/controller": "*",
+    "pmvc-plugin/cli": "*",
+    "pmvc-plugin/dispatcher": "*",
+    "pmvc-plugin/dotenv": "*",
+    "pmvc-plugin/dev": "*",
+    "pmvc-plugin/error": "*",
+    "pmvc-plugin/debug": "*",
+    "pmvc-plugin/debug_console": "*",
+    "pmvc-plugin/debug_cli": "*",
+    "pmvc-plugin/default_forward": "*",
+    "pmvc-plugin/nodejs": "*",
+    "pmvc-plugin/view": "*",
+    "pmvc-plugin/view_react": "*",
+    "pmvc-plugin/view_cli": "*",
+    "pmvc-plugin/view_config_helper": "*",
+    "pmvc-app/hello_app": "*",
+    "pmvc-theme/hello_react": "*"
+  },
+  "require-dev": {
+    "pmvc-plugin/unit": "*"
+  },
+  "config": {
+    "allow-plugins": {
+      "mouf/nodejs-installer": true
     }
+  }
 }

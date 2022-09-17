@@ -69,16 +69,16 @@
         },
         {
             "name": "pmvc-app/hello_app",
-            "version": "0.5.5",
+            "version": "0.6.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/pmvc-app/hello_app.git",
-                "reference": "2b330aeaade359eae103af67211f679376e5c10a"
+                "reference": "951b446b4a1bf7c58d805169a7de6dcf2f41f11e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/pmvc-app/hello_app/zipball/2b330aeaade359eae103af67211f679376e5c10a",
-                "reference": "2b330aeaade359eae103af67211f679376e5c10a",
+                "url": "https://api.github.com/repos/pmvc-app/hello_app/zipball/951b446b4a1bf7c58d805169a7de6dcf2f41f11e",
+                "reference": "951b446b4a1bf7c58d805169a7de6dcf2f41f11e",
                 "shasum": ""
             },
             "require": {
@@ -107,9 +107,9 @@
             ],
             "support": {
                 "issues": "https://github.com/pmvc-app/hello_app/issues",
-                "source": "https://github.com/pmvc-app/hello_app/tree/0.5.5"
+                "source": "https://github.com/pmvc-app/hello_app/tree/0.6.0"
             },
-            "time": "2021-04-30T08:08:31+00:00"
+            "time": "2022-09-17T02:39:13+00:00"
         },
         {
             "name": "pmvc-plugin/annotation",
@@ -286,16 +286,16 @@
         },
         {
             "name": "pmvc-plugin/controller",
-            "version": "0.10.4",
+            "version": "0.10.6",
             "source": {
                 "type": "git",
                 "url": "https://github.com/pmvc-plugin/controller.git",
-                "reference": "38ee76f107662096861e1130b684458a69009aa5"
+                "reference": "65e498ef89bd9161fd9b4583090e77aec3a805ae"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/pmvc-plugin/controller/zipball/38ee76f107662096861e1130b684458a69009aa5",
-                "reference": "38ee76f107662096861e1130b684458a69009aa5",
+                "url": "https://api.github.com/repos/pmvc-plugin/controller/zipball/65e498ef89bd9161fd9b4583090e77aec3a805ae",
+                "reference": "65e498ef89bd9161fd9b4583090e77aec3a805ae",
                 "shasum": ""
             },
             "require": {
@@ -326,9 +326,9 @@
             ],
             "support": {
                 "issues": "https://github.com/pmvc-plugin/controller/issues",
-                "source": "https://github.com/pmvc-plugin/controller/tree/0.10.4"
+                "source": "https://github.com/pmvc-plugin/controller/tree/0.10.6"
             },
-            "time": "2022-04-12T08:25:18+00:00"
+            "time": "2022-09-17T02:53:43+00:00"
         },
         {
             "name": "pmvc-plugin/cookie",
@@ -1307,16 +1307,16 @@
         },
         {
             "name": "pmvc-plugin/view_react",
-            "version": "0.7.8",
+            "version": "0.7.9",
             "source": {
                 "type": "git",
                 "url": "https://github.com/pmvc-plugin/view_react.git",
-                "reference": "568b17bbfd449d687ef88d56b62311d56d492683"
+                "reference": "09fbb4193a93d86a17671cf4bd05e9c5d7f9ab55"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/pmvc-plugin/view_react/zipball/568b17bbfd449d687ef88d56b62311d56d492683",
-                "reference": "568b17bbfd449d687ef88d56b62311d56d492683",
+                "url": "https://api.github.com/repos/pmvc-plugin/view_react/zipball/09fbb4193a93d86a17671cf4bd05e9c5d7f9ab55",
+                "reference": "09fbb4193a93d86a17671cf4bd05e9c5d7f9ab55",
                 "shasum": ""
             },
             "require": {
@@ -1348,22 +1348,22 @@
             ],
             "support": {
                 "issues": "https://github.com/pmvc-plugin/view_react/issues",
-                "source": "https://github.com/pmvc-plugin/view_react/tree/0.7.8"
+                "source": "https://github.com/pmvc-plugin/view_react/tree/0.7.9"
             },
-            "time": "2022-06-20T21:29:45+00:00"
+            "time": "2022-09-17T02:23:32+00:00"
         },
         {
             "name": "pmvc-theme/hello_react",
-            "version": "0.3.0",
+            "version": "0.3.4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/pmvc-theme/hello_react.git",
-                "reference": "a84a24779268ddb8ee0b4b32228b63cf71277cd2"
+                "reference": "b11bd3afcb78cf70c16f4603dd266fa766845367"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/pmvc-theme/hello_react/zipball/a84a24779268ddb8ee0b4b32228b63cf71277cd2",
-                "reference": "a84a24779268ddb8ee0b4b32228b63cf71277cd2",
+                "url": "https://api.github.com/repos/pmvc-theme/hello_react/zipball/b11bd3afcb78cf70c16f4603dd266fa766845367",
+                "reference": "b11bd3afcb78cf70c16f4603dd266fa766845367",
                 "shasum": ""
             },
             "require": {
@@ -1389,9 +1389,9 @@
             ],
             "support": {
                 "issues": "https://github.com/pmvc-theme/hello_react/issues",
-                "source": "https://github.com/pmvc-theme/hello_react/tree/0.3.0"
+                "source": "https://github.com/pmvc-theme/hello_react/tree/0.3.4"
             },
-            "time": "2022-09-16T21:58:00+00:00"
+            "time": "2022-09-17T03:05:52+00:00"
         },
         {
             "name": "pmvc/heroku-config",

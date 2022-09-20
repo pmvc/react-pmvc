@@ -198,16 +198,16 @@
         },
         {
             "name": "pmvc-plugin/asset",
-            "version": "0.4.1",
+            "version": "0.5.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/pmvc-plugin/asset.git",
-                "reference": "16e5b7f8009c71cbde57168b4e0a05df1ec17bb5"
+                "reference": "61de147c1e43dd20ac8b90f029914200989c2a9a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/pmvc-plugin/asset/zipball/16e5b7f8009c71cbde57168b4e0a05df1ec17bb5",
-                "reference": "16e5b7f8009c71cbde57168b4e0a05df1ec17bb5",
+                "url": "https://api.github.com/repos/pmvc-plugin/asset/zipball/61de147c1e43dd20ac8b90f029914200989c2a9a",
+                "reference": "61de147c1e43dd20ac8b90f029914200989c2a9a",
                 "shasum": ""
             },
             "require": {
@@ -236,9 +236,9 @@
             ],
             "support": {
                 "issues": "https://github.com/pmvc-plugin/asset/issues",
-                "source": "https://github.com/pmvc-plugin/asset/tree/0.4.1"
+                "source": "https://github.com/pmvc-plugin/asset/tree/0.5.0"
             },
-            "time": "2022-05-05T03:58:40+00:00"
+            "time": "2022-09-17T19:45:17+00:00"
         },
         {
             "name": "pmvc-plugin/cli",
